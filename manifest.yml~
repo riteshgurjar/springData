@@ -1,0 +1,11 @@
+---
+applications:
+  - name: rg-SpringBoot-DB-DataProject
+    instances: 1
+    path: target/dbaccess-0.0.1-SNAPSHOT.jar
+    
+services:
+    - rg-postgres
+    
+##env:
+    ##JAVA_OPTS: -agentlib:jdwp=transport=dt_socket,address=10.40.51.10:9571
